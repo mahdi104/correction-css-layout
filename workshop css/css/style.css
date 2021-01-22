@@ -1,0 +1,282 @@
+/* initialisation */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* header */
+.header {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.logo-docplanner {
+  width: 20%;
+}
+.menu {
+  float: right;
+  list-style-type: none;
+  margin-left: 55%;
+  justify-content: space-between;
+}
+.menu li {
+  display: inline;
+}
+.menu li a {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: gray;
+}
+.menu li a:hover {
+  color: #00b39b;
+}
+.menu li a:active {
+  color: #00b39b;
+}
+/*main*/
+/*section1*/
+.health-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 10%;
+}
+.health-intro h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.health-intro div {
+  display: flex;
+}
+.health-intro div p {
+  width: 45%;
+  padding: 3%;
+  line-height: 1.75;
+}
+/*section2*/
+.service {
+  display: flex;
+}
+.global {
+  margin: 2% 10%;
+  justify-content: center;
+}
+.patient {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #00ccb1;
+  color: white;
+  padding: 5%;
+  border-radius: 15px 15px;
+  line-height: 1.75;
+}
+.patient img {
+  width: 10%;
+  height: 5%;
+}
+.doctors {
+  width: 100%;
+  flex-direction: column;
+  background-color: #3d83df;
+  color: white;
+  padding: 5%;
+  line-height: 1.75;
+  margin-left: 5%;
+  border-radius: 15px 15px;
+}
+.doctors img {
+  width: 10%;
+  height: 5%;
+}
+.clinics {
+  width: 100%;
+  flex-direction: column;
+  background-color: #1b2734;
+  color: white;
+  padding: 5%;
+  line-height: 1.75;
+  margin-left: 5%;
+  border-radius: 15px 15px;
+}
+.clinics img {
+  width: 10%;
+  height: 5%;
+}
+select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-top: 20%;
+}
+/*section2*/
+.globlal-company {
+  display: flex;
+}
+.globlal-company h2 {
+  float: left;
+  width: 33%;
+  margin-right: 0%;
+  color: #00b39b;
+}
+.svg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 0;
+  width: 67%;
+  list-style: none;
+  justify-content: space-between;
+  fill: gray;
+}
+svg:hover {
+  fill: #00ccb1;
+}
+.platform {
+  /* width: 80%; */
+  /* margin: auto; */
+  background-color: #e5faf8;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+
+  /* flex: 1; */
+}
+.healthcare-platform {
+  width: 20%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 5% 10%;
+  /* width: 100%; */
+  line-height: 2;
+  text-align: center;
+  flex-direction: column;
+  /* flex: 1; */
+}
+.lead__logo {
+  position: absolute;
+  /* left: 0px;
+  right: 25px; */
+  bottom: -150px;
+  left: 50px;
+}
+.size {
+  width: 80%;
+  /* flex: 3; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.healthcare-platform h2 {
+  color: #00ccb1;
+}
+
+.mln {
+  display: flex;
+  width: 228px;
+  height: 220px;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  width: 30%;
+  height: 250px;
+  /* text-align: center; */
+  padding: 5%;
+  font-size: 0.8125em;
+  line-height: 1.75;
+  justify-content: center;
+  align-items: center;
+  /* flex: 3; */
+  margin: 10px;
+}
+.mln img {
+  /* max-width: 100%; */
+  height: auto;
+}
+.mln h3 {
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  margin: 0.5em 0;
+}
+.translation {
+  transform: translateY(-10px);
+}
+.milion {
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  line-height: 1.75;
+}
+
+/*section 3*/
+.caracteristique {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20%;
+  position: relative;
+}
+.caracteristique h2 {
+  max-width: 75%;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+  color: #00b39b;
+}
+.caracteristique p {
+  margin: auto;
+  width: 75%;
+  line-height: 2;
+  font-size: 16px;
+}
+.office__image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  overflow: hidden;
+  width: 75%;
+  align-items: center;
+  position: relative;
+  color: #747474;
+}
+.image {
+  display: block;
+  padding-right: 2.5%;
+}
+.office__desc {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  padding: 5%;
+}
+.btn--small {
+  font-size: 0.625rem;
+  padding: 5%;
+}
+.btn {
+  float: right;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 5%;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+}
